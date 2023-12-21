@@ -1,0 +1,50 @@
+ul {
+    list-style-type: none;
+    background-color: black;
+    display: flexbox;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    flex-direction: row;
+   
+
+}
+
+li{
+    float: left;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#input{
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 300px;
+    padding: 5px 10px;
+}
+li img{
+    width: 70px;height: 70px;
+}
+li button{
+width: 100x;
+height:30px;
+margin-top: 20px;
+margin-left: 70px;
+cursor: pointer;
+
+
+}
+li a:hover {
+  background-color: #111;
+}
+
